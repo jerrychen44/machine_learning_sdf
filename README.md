@@ -1,4 +1,4 @@
-# standford machine learning ex
+# Stanford machine learning ex
 
  For studying and course requirement.
 
