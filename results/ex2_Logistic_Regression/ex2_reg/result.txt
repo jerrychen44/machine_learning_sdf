@@ -1,0 +1,38 @@
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+lambda: 0.000000
+Train Accuracy: 86.440678
+octave:7> 
+
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+lambda: 0.000080
+Train Accuracy: 87.288136
+octave:20> 
+
+
+
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+lambda: 1.000000
+Train Accuracy: 83.050847
+octave:8> 
+
+
+
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+lambda: 10.000000
+Train Accuracy: 74.576271
+octave:9> 
+
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+lambda: 100.000000
+Train Accuracy: 61.016949
+octave:10> 

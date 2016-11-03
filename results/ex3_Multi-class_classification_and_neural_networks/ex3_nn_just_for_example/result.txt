@@ -1,0 +1,16 @@
+octave:23>  ex3_nn
+
+Loading and Visualizing Data ...
+Program paused. Press enter to continue.
+
+Loading Saved Neural Network Parameters ...
+
+Training Set Accuracy: 97.520000
+Program paused. Press enter to continue.
+
+Displaying Example Image
+
+Neural Network Prediction: 10 (digit 0)
+Program paused. Press enter to continue.
+
+

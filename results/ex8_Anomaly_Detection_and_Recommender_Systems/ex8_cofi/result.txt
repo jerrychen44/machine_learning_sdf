@@ -1,0 +1,140 @@
+octave:8> ex8_cofi
+Loading movie ratings dataset.
+
+Average rating for movie 1 (Toy Story): 3.878319 / 5
+
+
+Program paused. Press enter to continue.
+Cost at loaded parameters: 22.224604 
+(this value should be about 22.22)
+
+Program paused. Press enter to continue.
+
+Checking Gradients (without regularization) ... 
+    0.022406    0.022406
+   -0.905572   -0.905572
+   10.736920   10.736920
+   -0.209461   -0.209461
+   -2.132423   -2.132423
+   -0.097385   -0.097385
+    3.168490    3.168490
+    1.903181    1.903181
+    1.983584    1.983584
+    0.789124    0.789124
+   -4.975335   -4.975335
+   -2.318975   -2.318975
+    7.165271    7.165271
+  -12.299409  -12.299409
+   -0.356443   -0.356443
+   -0.841096   -0.841096
+   -6.908777   -6.908777
+   -3.263629   -3.263629
+    5.530254    5.530254
+    2.865743    2.865743
+    1.005360    1.005360
+    3.108335    3.108335
+    0.202657    0.202657
+    0.424501    0.424501
+    1.035123    1.035123
+    1.044577    1.044577
+    0.093856    0.093856
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 1.62562e-12
+
+Program paused. Press enter to continue.
+Cost at loaded parameters (lambda = 1.5): 31.344056 
+(this value should be about 31.34)
+
+Program paused. Press enter to continue.
+
+Checking Gradients (with regularization) ... 
+   8.14670   8.14670
+   0.66468   0.66468
+  -2.13275  -2.13275
+  -9.06364  -9.06364
+  -6.34239  -6.34239
+   0.73845   0.73845
+   0.77258   0.77258
+   5.09959   5.09959
+  -3.30450  -3.30450
+  -1.02673  -1.02673
+   0.34436   0.34436
+   3.85560   3.85560
+  -2.18737  -2.18737
+   0.71020   0.71020
+   2.78013   2.78013
+  -7.38371  -7.38371
+  -0.19159  -0.19159
+  -1.56380  -1.56380
+   1.07373   1.07373
+  -0.65181  -0.65181
+   4.79330   4.79330
+   0.17481   0.17481
+   0.33835   0.33835
+   0.98342   0.98342
+  -1.91653  -1.91653
+   9.14187   9.14187
+   0.26629   0.26629
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 1.41964e-12
+
+Program paused. Press enter to continue.
+
+
+New user ratings:
+Rated 4 for Toy Story (1995)
+Rated 3 for Twelve Monkeys (1995)
+Rated 5 for Usual Suspects, The (1995)
+Rated 4 for Outbreak (1995)
+Rated 5 for Shawshank Redemption, The (1994)
+Rated 3 for While You Were Sleeping (1995)
+Rated 5 for Forrest Gump (1994)
+Rated 2 for Silence of the Lambs, The (1991)
+Rated 4 for Alien (1979)
+Rated 5 for Die Hard 2 (1990)
+Rated 5 for Sphere (1998)
+
+Program paused. Press enter to continue.
+
+Training collaborative filtering...
+Iteration   100 | Cost: 7.202463e+04
+Recommender system learning completed.
+
+Program paused. Press enter to continue.
+
+Top recommendations for you:
+Predicting rating 8.5 for movie Star Wars (1977)
+Predicting rating 8.4 for movie Titanic (1997)
+Predicting rating 8.3 for movie Shawshank Redemption, The (1994)
+Predicting rating 8.2 for movie Raiders of the Lost Ark (1981)
+Predicting rating 8.2 for movie Schindler's List (1993)
+Predicting rating 8.1 for movie Good Will Hunting (1997)
+Predicting rating 8.0 for movie Empire Strikes Back, The (1980)
+Predicting rating 8.0 for movie Usual Suspects, The (1995)
+Predicting rating 8.0 for movie Braveheart (1995)
+Predicting rating 8.0 for movie Godfather, The (1972)
+
+
+Original ratings provided:
+Rated 4 for Toy Story (1995)
+Rated 3 for Twelve Monkeys (1995)
+Rated 5 for Usual Suspects, The (1995)
+Rated 4 for Outbreak (1995)
+Rated 5 for Shawshank Redemption, The (1994)
+Rated 3 for While You Were Sleeping (1995)
+Rated 5 for Forrest Gump (1994)
+Rated 2 for Silence of the Lambs, The (1991)
+Rated 4 for Alien (1979)
+Rated 5 for Die Hard 2 (1990)
+Rated 5 for Sphere (1998)
+octave:9> 

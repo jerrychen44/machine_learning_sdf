@@ -1,0 +1,109 @@
+octave:3> ex7
+
+Finding closest centroids.
+
+m =  300
+Closest centroids for the first 3 examples: 
+ 1 3 2
+(the closest centroids should be 1, 3, 2 respectively)
+Program paused. Press enter to continue.
+
+Computing centroids means.
+
+Centroids computed after initial finding of closest centroids: 
+ 2.428301 3.157924 
+ 5.813503 2.633656 
+ 7.119387 3.616684 
+
+(the centroids should be
+   [ 2.428301 3.157924 ]
+   [ 5.813503 2.633656 ]
+   [ 7.119387 3.616684 ]
+
+Program paused. Press enter to continue.
+Fontconfig warning: ignoring UTF-8: not a valid region tag
+
+Running K-Means clustering on example dataset.
+
+K-Means iteration 1/10...
+m =  300
+Press enter to continue.
+K-Means iteration 2/10...
+m =  300
+Press enter to continue.
+K-Means iteration 3/10...
+m =  300
+Press enter to continue.
+K-Means iteration 4/10...
+m =  300
+Press enter to continue.
+K-Means iteration 5/10...
+m =  300
+Press enter to continue.
+K-Means iteration 6/10...
+m =  300
+Press enter to continue.
+K-Means iteration 7/10...
+m =  300
+Press enter to continue.
+K-Means iteration 8/10...
+m =  300
+Press enter to continue.
+K-Means iteration 9/10...
+m =  300
+Press enter to continue.
+K-Means iteration 10/10...
+m =  300
+Press enter to continue.
+
+K-Means Done.
+
+Program paused. Press enter to continue.
+
+Running K-Means clustering on pixels from an image.
+
+warning: your version of GraphicsMagick limits images to 16 bits per pixel
+warning: called from
+    imformats>default_formats at line 256 column 11
+    imformats at line 79 column 3
+    imageIO at line 106 column 11
+    imread at line 106 column 30
+    ex7 at line 109 column 3
+K-Means iteration 1/15...
+m =  16384
+K-Means iteration 2/15...
+m =  16384
+K-Means iteration 3/15...
+m =  16384
+K-Means iteration 4/15...
+m =  16384
+K-Means iteration 5/15...
+m =  16384
+K-Means iteration 6/15...
+m =  16384
+K-Means iteration 7/15...
+m =  16384
+K-Means iteration 8/15...
+m =  16384
+K-Means iteration 9/15...
+m =  16384
+K-Means iteration 10/15...
+m =  16384
+K-Means iteration 11/15...
+m =  16384
+K-Means iteration 12/15...
+m =  16384
+K-Means iteration 13/15...
+m =  16384
+K-Means iteration 14/15...
+m =  16384
+K-Means iteration 15/15...
+m =  16384
+Program paused. Press enter to continue.
+
+
+Applying K-Means to compress an image.
+
+m =  16384
+Program paused. Press enter to continue.
+octave:4> 

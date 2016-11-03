@@ -1,0 +1,21 @@
+X data is 5000x400
+all_theta= 10x401
+
+Loading and Visualizing Data ...
+Program paused. Press enter to continue.
+
+Training One-vs-All Logistic Regression...
+Iteration    50 | Cost: 1.377924e-02
+Iteration    50 | Cost: 5.725231e-02
+Iteration    50 | Cost: 6.384780e-02
+Iteration    50 | Cost: 3.620410e-02
+Iteration    50 | Cost: 6.187287e-02
+Iteration    50 | Cost: 2.167805e-02
+Iteration    50 | Cost: 3.458311e-02
+Iteration    50 | Cost: 8.551314e-02
+Iteration    50 | Cost: 8.145378e-02
+Iteration    50 | Cost: 9.599371e-03
+Program paused. Press enter to continue.
+
+Training Set Accuracy: 95.080000
+octave:23> 
